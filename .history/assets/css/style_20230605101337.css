@@ -1,0 +1,55 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card {
+  height: 40em;
+  width: 30em;
+  border: solid rgb(0, 0, 0) 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+  color: white;
+  background-image: url(../img/bg.png);
+  background-position: ce;
+}
+
+img {
+  height: 15em;
+  padding-bottom: 0em;
+}
+
+.cantidad {
+  margin-bottom: 1em;
+}
+
+.color {
+  margin-bottom: em;
+}
+
+button {
+  height: 2em;
+  width: 10em;
+  border-radius: 5%;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+.detalle {
+  margin-left: 4em;
+}
+
+.color-object {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
