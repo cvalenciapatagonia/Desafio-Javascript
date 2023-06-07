@@ -1,25 +1,24 @@
 // Declarando Variables
-const amountInput = document.querySelector(".amount-input");
-const colorInput = document.querySelector(".color-input");
 const calculateButton = document.querySelector("button");
 const totalElement = document.querySelector(".total");
 const amountElement = document.querySelector(".amount");
 const colorObject = document.querySelector(".color-object");
+const colorInput = document.querySelector(".color");
 
 // Funcion a boton Calculate
 calculateButton.addEventListener("click", function() {
   
   // Recepcion de valores
-  const amount = parseInt(amountInput.value);
+  const cantidadInput = document.querySelector(".cantidad");
+  const cantidad = parseInt(cantidadInput.value);
   const color = colorInput.value;
 
 //Funciones matematicas
-  const price = 1.099;
-  const total = amount * price;
+  const price = 1099;
+  const total = cantidad * price;
 
   // Resultados
   totalElement.innerHTML = total;
-  amountElement.innerHTML = amount;
+  amountElement.innerHTML = cantidad;
   colorObject.style.backgroundColor = color;
 });
-
