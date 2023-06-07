@@ -15,7 +15,7 @@ calculateButton.addEventListener("click", function() {
 
 //Funciones matematicas
   const price = 1.099;
-  const total = amount * price;
+  const total = "$ " + amount * price;
 
   // Resultados
   totalElement.innerHTML = total;
