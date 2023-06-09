@@ -14,7 +14,7 @@ calculateButton.addEventListener("click", function() {
   const color = colorInput.value;
 
 //Funciones matematicas
-  const price = 1099;
+  const price = 1000;
   const total = "$ " + amount * price;
 
   // Resultados
